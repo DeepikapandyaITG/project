@@ -1,0 +1,520 @@
+ * {
+     text-decoration: none;
+     list-style: none;
+ }
+
+ .page-width {
+     /* width: 1600px; */
+     margin: auto;
+ }
+
+ .normal-text {
+     font-size: 16px;
+     font-family: "DM Sans", sans-serif;
+     font-style: normal;
+     font-weight: 400;
+ }
+
+ .background-color {
+     background-color: #F7F6F2;
+ }
+
+ .upper-case {
+     text-transform: uppercase;
+ }
+
+ .font-weight {
+     font-weight: bold;
+     font-size: 18px;
+ }
+
+ .fonts {
+     font-family: "Outfit", sans-serif;
+     font-optical-sizing: auto;
+ }
+
+ a {
+     color: black;
+ }
+
+ a.logo {
+     font-size: 4vw;
+     font-weight: 500;
+ }
+
+ .annpmcment-bar-wraper {
+     background: #D1D1D180;
+     display: flex;
+     justify-content: center;
+     border-bottom: 1px solid #D1D1D180;
+     width: 100%;
+ }
+
+ .annoncment-bar {
+     padding: 10px;
+ }
+
+ header.header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px;
+ }
+
+ ul {
+     display: flex;
+     gap: 30px;
+     align-items: center;
+ }
+
+ .headerLi {
+     display: flex;
+     gap: 30px;
+     align-items: center;
+ }
+
+ li.drop-down-li {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+ }
+
+ .rich-text {
+     text-align: center;
+     padding: 45px;
+ }
+
+ h2 {
+     font-size: 5vw;
+     display: inline;
+ }
+
+ .cont {
+     font-size: 20px;
+     font-weight: bold;
+     font-family: "DM Sans", sans-serif;
+     padding-top: 25px;
+ }
+
+ .inline-p {
+     display: inline;
+ }
+
+ a.shopBtn {
+     background: #8C464C;
+     color: white;
+     padding: 20px 40px;
+     display: inline-block;
+ }
+
+ .sec-font {
+     font-family: "Playfair Display", serif;
+ }
+
+ img.image {
+     width: 100%;
+     padding: 50px 0px 0px;
+ }
+
+ .featuredCollection {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+ }
+
+ .collection {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+     justify-content: center;
+ }
+
+ .prodcuts {
+     text-align: center;
+     background: #FFFFFE;
+     padding: 40px;
+     position: relative;
+ }
+
+ p.info {
+     color: #231213;
+     font-size: 14px;
+     font-weight: 400;
+ }
+
+ span.comparePrice {
+     color: #231213;
+     text-decoration: line-through;
+     font-size: 14px;
+     text-align: center;
+ }
+
+ p.price.text {
+     color: #CA514E;
+     font-weight: bold;
+     font-size: 22px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+ }
+
+ .buyBtn {
+     position: absolute;
+     top: 20px;
+     left: 10px;
+     display: flex;
+     gap: 5px;
+ }
+
+ button.sale {
+     background: #8C464C;
+     color: white;
+     border: none;
+     padding: 10px;
+     width: 49px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ button.new {
+     background: #231213;
+ }
+
+ a.btn {
+     color: white;
+ }
+
+ button.ractangle1 {
+     background: #8C464C;
+ }
+
+ button.ractangle {
+     border: none;
+     width: 32px;
+     height: 16px;
+     border-radius: 2px;
+ }
+
+ button.ractangle2 {
+     background: #6A5475;
+
+ }
+
+ button.ractangle3 {
+     background: #BCBDBE;
+ }
+
+ p {
+     line-height: 15px;
+ }
+
+ .ScrollingText {
+     display: flex;
+     gap: 10px;
+     padding: 70px;
+ }
+
+ /* 
+.ScrollingText {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll-animation 10s linear infinite;
+}
+
+@keyframes scroll-animation {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+} */
+
+ h2.scrollTexts {
+     font-size: 140px;
+ }
+
+ .formforSelling {
+     border: 1px solid #0000001A;
+     height: fit-content;
+     padding: 40px 38px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .forminfo {
+     display: flex;
+     gap: 12px;
+ }
+
+ form {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     text-transform: uppercase;
+ }
+
+ .email {
+     display: flex;
+     gap: 12px;
+     margin-top: 26px;
+     flex-direction: column;
+ }
+
+ input#email {
+     padding: 14px;
+     border: none;
+     width: 96%;
+ }
+
+ .input {
+     border: none;
+     padding: 14px;
+ }
+
+ .otherinfo {
+     font-size: 14px;
+ }
+
+ .label {
+     display: flex;
+     flex-direction: column;
+     gap: 7px;
+ }
+
+ section.form {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 40px 38px;
+ }
+
+ textarea {
+     border: none;
+ }
+
+ .textarea {
+     display: flex;
+     flex-direction: column;
+     gap: 7px;
+ }
+
+ section.form-wraper {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ a.submitBtn {
+     width: 10%;
+ }
+
+ h3 {
+     font-size: 2vw;
+     font-weight: bold;
+ }
+
+ .width {
+     width: 51%;
+ }
+
+ .iconwithtext {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 35px;
+     flex-wrap: wrap;
+ }
+
+ .innerDiv {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+ }
+
+ section.iconwithtextsection {
+     background: #F2F0EB;
+     padding: 90px 0px;
+     margin: 90px 0px 10px;
+ }
+
+ .footer {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 180px;
+     align-items: baseline;
+ }
+
+ .icon {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     padding-top: 30px;
+ }
+
+ .usaicon {
+     display: flex;
+     gap: 30px;
+ }
+
+ img.payment {
+     width: 100%;
+ }
+
+ li.usaLi {
+     display: flex;
+     gap: 10px;
+     align-items: center;
+ }
+
+ ul.footer-ul {
+     display: flex;
+     flex-direction: column;
+     align-items: baseline;
+ }
+
+ .mediaSection {
+     display: flex;
+     justify-content: center;
+     gap: 218px;
+     padding: 20px;
+     align-items: center;
+     border-top: 1px solid #D1D1D1;
+     margin-top: 50px;
+ }
+
+
+ @media only screen and (max-width: 1200px) {
+     .headerLi {
+         display: none;
+     }
+
+     .footer {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         align-items: center;
+         gap: 0px;
+     }
+
+     .mediaSection {
+         gap: 80px;
+         flex-wrap: wrap;
+         text-align: center;
+     }
+ }
+
+ @media only screen and (max-width: 800px) {
+     .innerDiv {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         gap: 20px;
+         text-align: center;
+     }
+
+     .navigation-bar-with-icon {
+         display: none;
+     }
+
+     h2 {
+         font-size: 7vw;
+     }
+
+     .forminfo {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .width {
+         width: 75%;
+     }
+
+     input#email {
+         width: 71%;
+     }
+
+     label#hobbie {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 10px;
+     }
+
+     .textarea {
+         width: 75%;
+     }
+
+     .formforSelling {
+         width: 85%;
+         padding: 40px 0px 10px 10px;
+     }
+
+     h3 {
+         font-size: 5vw;
+     }
+
+     p.annoncment-text {
+         display: flex;
+         text-align: center;
+         line-height: 23px;
+     }
+
+     .mediaSection {
+         flex-direction: column;
+         gap: 20px;
+     }
+
+ }
+
+ @media (max-width: 480px) {
+     body {
+         font-size: 14px;
+     }
+
+     header.header {
+         padding: 10px;
+     }
+
+     .rich-text {
+         padding: 20px;
+     }
+
+     a.shopBtn {
+         padding: 12px 20px;
+         font-size: 14px;
+     }
+
+     h2 {
+         font-size: 7vw;
+     }
+
+     .formforSelling {
+         padding: 20px;
+     }
+
+     textarea {
+         width: 100%;
+     }
+
+     .iconwithtext .innerDiv {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .footer {
+         display: grid;
+         grid-template-columns: 1fr;
+         align-items: center;
+         gap: 0px;
+     }
+
+     .icon {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         padding-top: 30px;
+     }
+ }
